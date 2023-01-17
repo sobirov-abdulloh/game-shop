@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body h1 {
+  margin-bottom: 20px;
+  color: rgb(45, 46, 46);
+  margin-left: 90px;
+  font-size: 18px;
+}
+main {
+  display: grid;
+  grid-template-columns: 60% auto;
+  background-color: blue;
+}
+.фото1 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  height: 340px;
+  width: 430px;
+  margin-left: 312px;
+  grid-gap: 15px;
+}
+.фото10 {
+  background-image: url("./rasm/image 16.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding: 8px 0px;
+}
+.фото1 p {
+  color: #fff;
+}
+.почерк {
+  height: 125px;
+  background-color: rgba(25, 25, 27, 0.5);
+  padding: 5px;
+  width: 100%;
+}
+.фото1 b {
+  color: orange;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+.fff a {
+  text-decoration: underline;
+}
+.fff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fff h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  display: inline-block;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.фото2 {
+  background-image: url("./rasm/image 18.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  /* padding: 8px; */
+}
+.фото2 b {
+  color: orange;
+}
+.фото2 p {
+  color: #fff;
+}
+.почерк2 {
+  height: 125px;
+  background-color: rgba(25, 25, 27, 0.5);
+  width: 100%;
+  padding: 5px;
+}
+
+.фото3 {
+  background-image: url("./rasm/Rectangle 159.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  /* padding: 8px; */
+}
+
+.фото4 {
+  background-image: url("./rasm/image 20.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  /* padding: 8px; */
+}
+.фото5 {
+  background-image: url("./rasm/image 23.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  /* padding: 8px; */
+}
+.фото6 {
+  background-image: url("./rasm/image 27.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.фото7 {
+  background-image: url("./rasm/image 27.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+
+}
+.фото8 {
+  background-image: url("./rasm/image 137.png");
+  background-size: cover;
+  height: 360px;
+  width: 450px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+.cc h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #2a2a2a;
+  margin-left: 312px;
+}
+.hhh {
+  display: flex;
+  margin-left: 312px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 35px;
+}
+.hhh h5 {
+  margin-right: 8px;
+  font-size: 17px;
+}
+.fff {
+  display: flex;
+}
+.vvv {
+  display: flex;
+}
+
+.vvv p {
+  height: 57px;
+  width: 270px;
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.vvv img {
+  width: 58px;
+  height: 26px;
+  margin-left: 105px;
+  margin-top: 50px;
+  border: 1px solid white;
+  border-radius: 14px;
+}
+
+/* ------ */
+.abdullo {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: rgb(46, 46, 46);
+  padding: 5px 30px 5px 30px;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+}
+#poisk {
+  background-color: white;
+  margin: 0 40px 0 20px;
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+#poisk > input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+#header_on {
+  height: 30px;
+  margin-right: 100px;
+}
+#header_on > span {
+  color: white;
+  margin: 0 10px;
+}
+#rasm {
+  margin-left: 10px;
+}
+#dad {
+  background-color: rgb(216, 216, 216);
+  height: 80px;
+  padding: 15px 0 10px 80px;
+}
+#box2 {
+  margin-top: -10px;
+  margin-left: 140px;
+}
+#box2 > img {
+  height: 30px;
+  margin-right: 5px;
+}
+#rre {
+  height: 30px;
+  margin-top: -10px;
+}
+#box1 > p {
+  font-size: 25px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+#box1 > img {
+  margin-left: 15px;
+}
+/* ------- */
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  padding: 40px 40px;
+}
+.box1 .box1 > img {
+  width: 152px;
+  height: 36px;
+}
+.box1 > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.box1 {
+  margin-right: 70px;
+}
+.box2 {
+  margin-right: 70px;
+}
+.box2 > h5 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.box2 > p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #ebe9e9;
+  line-height: 23px;
+}
+.box3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  margin-right: 70px;
+}
+.box4 {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  margin-right: 70px;
+}
+.box5 > button {
+  width: 225px;
+  height: 51px;
+  border: 1px solid #f9a43f;
+  border-radius: 9px;
+  color: #f9a43f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a2a;
+  margin-bottom: 10px;
+}
+.box5 > p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+.kich_img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.past_box {
+  padding: 30px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.soz p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: gray;
+}
+.soz2 p,
+a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: gray;
+}
+.kich_img .fa {
+  color: #f9a43f;
+  margin-right: 10px;
+  font-size: 25px;
+}
+footer {
+  color: white;
+
+  margin-top: 1200px;
+}
